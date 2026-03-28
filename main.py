@@ -2,8 +2,8 @@ from pypresence import Presence
 import time
 import subprocess
 import pygetwindow as gw
-
-client_id = "1487380044924981248"
+import os
+client_id = os.getenv("DISCORD_CLIENT_ID")
 RPC = None  
 
 VM_PROCESSES = [
