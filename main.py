@@ -1,9 +1,15 @@
 from pypresence import Presence
+from dotenv import load_dotenv
 import time
 import subprocess
 import pygetwindow as gw
+import os
 
-client_id = "1487380044924981248"
+load_dotenv()
+client_id = os.getenv("DISCORD_CLIENT_ID")
+if not client_id:
+    raise ValueError("DISCORD_CLIENT_ID not set")
+
 RPC = None  
 
 VM_PROCESSES = [
@@ -117,4 +123,4 @@ while True:
             connected = False
             print("VM stopped → returning control to Discord")
 
-    time.sleep(10)
+    time.sleep(50)
