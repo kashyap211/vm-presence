@@ -123,4 +123,4 @@ while True:
             connected = False
             print("VM stopped → returning control to Discord")
 
-    time.sleep(50)
+    time.sleep(10)
