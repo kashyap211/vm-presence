@@ -4,7 +4,6 @@ A smart Discord Rich Presence tool that shows your Virtual Machine activity alon
 
 ---
 
-# 🖥️ VM Discord Rich Presence
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
@@ -14,6 +13,7 @@ A smart Discord Rich Presence tool that shows your Virtual Machine activity alon
 
 ![Demo](assets/demo.png)
 
+---
 ## 🚀 Features
 
 * Detects running Virtual Machines:
