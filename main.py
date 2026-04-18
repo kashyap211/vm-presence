@@ -81,7 +81,7 @@ while True:
         vm_name = get_vm_name()
         file = get_editor_file()
 
-        # 🔥 Smart logic for text + icons
+        
         if editor and file:
             state_text = f"Coding {file} + {vm_name}"
             large_image = "code"
@@ -103,7 +103,7 @@ while True:
             small_image = None
             small_text = None
 
-        # 🔥 Update Discord presence
+        
         RPC.update(
             state=state_text,
             details="Virtual Machine Lab",
